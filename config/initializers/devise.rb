@@ -1,6 +1,7 @@
 
 Devise.setup do |config|
-  config.omniauth :facebook, '347890375833877', 'a3e0ca8dde8bf10b9a2dd194cca6091c'
+  
+  
   config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
   require 'devise/orm/active_record'
 
